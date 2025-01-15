@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python3 /home/gufran/Desktop/Stalker_Trauma/main.py
+/usr/bin/python3 /home/gufran/Desktop/Stalker_Trauma/main.py

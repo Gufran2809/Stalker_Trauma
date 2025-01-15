@@ -1,20 +1,12 @@
 import os
 import random
-import time
 
 
-no_of_commits = random.randint(1,5)
-# no_of_commits = 10
-
-print(no_of_commits)
-
-for i in range(no_of_commits):
-    with open('out.txt','w') as f:
-        f.write(str(i+1))
-        os.system("git add .")
-        os.system('git commit -m "greening the grass"')
-        os.system('git push origin main')
-    time.sleep(4)
+with open('out.txt','w') as f:
+    f.write(str(random.randint(1,100)))
+    os.system("git add .")
+    os.system('git commit -m "greening the grass"')
+    os.system('git push origin main')
 
 
 

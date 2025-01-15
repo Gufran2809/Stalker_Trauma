@@ -16,6 +16,3 @@ for _ in range(number_of_commits):
     os.system('git commit -m "greening the grass"')
     os.system('git push origin main')
 
-    # Log after each commit
-    with open('/home/gufran/cron.log', 'a') as log:
-        log.write("Commit and push successful\n")

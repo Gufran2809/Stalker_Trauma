@@ -10,6 +10,9 @@ no_of_commits = 10
 for _ in range(no_of_commits):
     with open('out.txt','w') as f:
         f.write(str(random.randint(1,10)))
+        os.system("git add .")
+        os.system('git commit -m "greening the grass"')
+        os.system('git push origin main')
     time.sleep(1)
 
 

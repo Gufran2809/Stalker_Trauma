@@ -11,11 +11,10 @@ print(no_of_commits)
 for i in range(no_of_commits):
     with open('out.txt','w') as f:
         f.write(str(i+1))
-        time.sleep(5)
         os.system("git add .")
         os.system('git commit -m "greening the grass"')
         os.system('git push origin main')
-    # time.sleep(1)
+    time.sleep(4)
 
 
 

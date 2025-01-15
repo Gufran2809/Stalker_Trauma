@@ -3,8 +3,8 @@ import random
 import time
 
 
-# no_of_commits = random.randint(1,5)
-no_of_commits = 10
+no_of_commits = random.randint(1,5)
+# no_of_commits = 10
 
 
 for _ in range(no_of_commits):
